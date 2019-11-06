@@ -5,29 +5,34 @@ header{
 	background-color:#F15B31;
 	color: white;
 	padding:30px 20px;
+	margin:0;
+
 }
 
 nav{
-	background-color: #00A8B3;
+	background-color: #00A6B3;
 	color:white;
-	padding: 20px 0;
+	padding: 20px 20px;
 }
 
-a:hover{
+a:hover {
 	margin:0 20px;
 	color:white;
 	border-bottom: 2px solid transparent;
+	border-color:white;
 
 }
 
 a:hover{
-	border-color: white;
+	border-color:white;
 }
+
 
 h1{
 	margin:20PX 20PX;
 	font-family:"Raleway",sans-serif;
 	font-weight: 400;
+	margin:0;
 
 }
 
@@ -63,11 +68,11 @@ img{
 
 .copyright{
 	font:uppercase;
-	padding:0 20px;
-	background-color:#OD2C40;
+	padding:20px;
+	background-color:blue;
 	color:white;
 	font-size:14px;
-	letter-spacing: .08em;
+	letter-spacing:.08em;
 	font-weight: 500;
 	float:left;
 	font-family:"Raleway",sans-serif;
@@ -77,6 +82,11 @@ img{
 .message{
 	float:right;
 	font-family: "Raleway",sans-serif;
+	color:white;
+	background-color: navy;
+	padding:20px 20px;
+	text-align: center;
+
 }
 
 .clearfix:after {
@@ -86,11 +96,24 @@ content: " ";
 clear: both;
 height: 0;
 font-size: 0;
+text-transform: uppercase;
+text-align: center;
 }
 
 .name{
 	color:#F15B31;
 	font-weight:700;
 }
+
+.footer{
+	text-transform:uppercase;
+	padding:20px;
+	background-color: #0D2C40;
+	color:white;
+	font-size:14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
 
 
